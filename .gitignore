@@ -1,1 +1,13 @@
+# Arquivos temporarios do python
+__pycache__/
+*.py[cod]
 
+# Ambientes Virtuais 
+.venv/
+venv/
+
+# Arquivos privados 
+.env
+
+# Relatorios gerados 
+reports/*.json
