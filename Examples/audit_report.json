@@ -1,0 +1,27 @@
+{
+    "sistema": {
+        "Sistema operacional": "Linux",
+        "Versão": "#9-Ubuntu SMP PREEMPT_DYNAMIC Mon Oct  5 10:38:02 UTC 2026",
+        "Kernel": "7.3.0-9-generic",
+        "Arquitetura": "x86_64",
+        "Hostname": "ubuntu",
+        "Usuário atual": "root",
+        "Data da auditoria": "2026-11-12T03:55:23+00:00",
+        "Distribuição": "Ubuntu 26.10"
+    },
+    "total_verificacoes_com_alertas": 2,
+    "resultados": [
+        {
+            "verificacao": "Estado do firewall",
+            "risco": "BAIXO",
+            "evidencia": "Status: active",
+            "recomendacao": "Firewall UFW está ativo."
+        },
+        {
+            "verificacao": "Autenticação por senha SSH",
+            "risco": "MÉDIO",
+            "evidencia": "PasswordAuthentication yes",
+            "recomendacao": "Avaliar o uso de chaves SSH e as necessidades de acesso dos usuários."
+        }
+    ]
+}
